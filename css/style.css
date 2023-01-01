@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+	background-color: rgba(255,255,255,1.0);
+	font-family: 'Montserrat', sans-serif;
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/*-----------------------------------------
+Header
+------------------------------------------*/
+
+.header {
+	background-color: rgba(238,242,245,1.0);
+}
+.header-up {
+	background-color: rgba(255,255,255,1.0);
+	display: flex;
+	justify-content: space-between;
+	height: 67px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.header-up__container {
+	display: flex;
+	flex-basis: 100%;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.header-up__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-basis: 100%;
+}
+.header-up__left {
+	display: flex;
+	justify-content: flex-start;
+}
+.header-up__right {
+	display: flex;
+	justify-content: flex-end;
+}
+.header-up__logo {
+display: flex;
+align-items: center;
+}
+.header-up__img-logo {
+
+}
+.header-up__text-logo {
+	font-size: 20px;
+	line-height: 130%;
+	margin: 0 0 0 4px;
+	font-weight: 700;
+}
+.header-up__nav {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-up__item {
+	margin: 0px 0px 0px 18px;
+	font-size: 14px;
+	color: #424242;
+	line-height: 110%;
+	font-weight: 500;
+}
+.header-down {
+	background-color: rgba(255,255,255,1.0);
+	align-items: center;
+	border-bottom: 1px solid #DEDEDE;
+}
+.header-down__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 67px;
+	margin: 0 auto;
+}
+.header-down__menu {
+	width: 100%;
+	position: relative;
+	z-index: 1000;
+}
+.header-down__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-down__item {
+	font-size: 16px;
+	line-height: 110%;
+	color: #424242;
+	font-weight: 500;
+}
+
+/*-----------------------------------------
+Credit
+------------------------------------------*/
+
+.credit {
+	background-color: rgba(255,255,255,1.0);
+	margin-bottom: 20px;
+	max-height: 400px;
+	padding: 6px 0 19px 0;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.credit__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+.credit__header {
+	font-weight: 600;
+	font-size: 52px;
+	line-height: 110%;
+	color: #212121;
+	margin: 85px 0 63px 0;
+}
+.blue-text {
+	color: #3A95FF;
+}
+.credit_button-conteiner {
+	width: 437px;
+	display: flex;
+	justify-content: space-between;
+}
+.credit_button {
+	width: 200px;
+	height: 55px;
+	border: 1px solid #3A95FF;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 130%;
+	font-weight: 600;
+	padding-top: 15px;
+}
+.button-blue {
+	background-color: #3A95FF;
+	color: #FFFFFF;
+}
+.button-white {
+	background-color: #FFFFFF;
+	color: #3A95FF;
+}
+.button-silver {
+	background-color: #E0E5EA;
+	color: #3A95FF;
+}
+.button-silver>a {
+	background-color: #E0E5EA;
+}
+.credit__picture {
+	min-width: 50%;
+	position: relative;
+}
+.credit__img-post {
+	position: relative;
+	z-index: 10;
+}
+.credit__img-ellipse3 {
+	position: absolute;
+	top: 50px;
+	right: 80px;
+}
+.credit__img-ellipse4 {
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+}
+.credit__img-ellipse5 {
+	position: absolute;
+	left: -20px;
+	bottom: 250px;
+}
+.credit__img-ellipse6 {
+	position: absolute;
+	right: 10px;
+	bottom: 70px;
+}
+.credit__img-ellipse7 {
+	position: absolute;
+	bottom: 1px;
+	left: 115px;
+	z-index: 10;
+}
+
+/*-----------------------------------------
+Best Offer
+------------------------------------------*/
+
+.best-offer {
+	background-color: rgba(255,255,255,1.0);
+}
+.best-offer__container {
+	padding: 70px 0 0 0 ;
+	margin: 0 auto;
+	padding: 50px 0 48px 0;
+}
+.best-offer__title {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 49px;
+	color: #000000;
+	margin-bottom: 25px;
+}
+.best-offer__subtitle {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+	margin-bottom: 70px;
+}
+.best-offer__column {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.best-offer__card {
+	display: flex;
+	justify-content: space-between;
+	background: #EFF2F5;
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 8px;
+	width: 555px;
+	height: 300px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+	margin-bottom: 62px;
+}
+.best-offer__text {
+}
+.best-offer__text_main {
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 130%;
+	color: #212121;
+	margin: 34px 0 24px 34px;
+
+}
+.best-offer__text_small {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 130%;
+	color: #424242;
+	margin: 0 16px  128px 34px;
+}
+.best-offer__picture {
+	position: relative;
+	overflow: hidden;
+}
+.best-offer__picture1 {
+	position: relative;
+	top: 63px;
+	z-index: 10;
+}
+.best-offer__picture2 {
+	position: absolute;
+	width: 350px;
+	height: 335px;
+	left: 15px;
+	bottom: 87px;
+}
+.best-offer__picture3 {
+	position: relative;
+	top: 55px;
+	z-index: 10;
+}
+.best-offer__picture4 {
+	position: absolute;
+	width: 350px;
+	height: 335px;
+	left: 15px;
+	top: 115px;
+}
+.best-offer__picture5 {
+	position: relative;
+	top: 55px;
+	z-index: 10;
+}
+.best-offer__picture6 {
+	position: absolute;
+	width: 220px;
+	height: 200px;
+	left: 30px;
+	top: 65px;
+}
+.best-offer__picture7 {
+	position: relative;
+	top: 55px;
+	z-index: 10;
+}
+.best-offer__picture8 {
+	position: absolute;
+	width: 350px;
+	height: 335px;
+	left: 10px;
+	top: 80px;
+}
+
+/*-----------------------------------------
+Credit Card
+------------------------------------------*/
+
+.credit-card {
+	background: #EFF2F5;
+}
+.credit-card__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	padding: 137px 0 138px 0;
+}
+.credit-card__left {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	background-color: #E0E5E9;
+	box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+	5px 5px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+.credit-card__top {
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 130%;
+	color: #212121;
+	padding: 0 33px 34px 99px;
+}
+.credit-card__top>p {
+	margin: 0 30px 0 0;
+}
+.credit-card__top-img {
+	position: relative;
+}
+.credit-card__img1 {
+	position: relative;
+	width: 262px;
+	height: 262px;
+	z-index: 10;
+}
+.credit-card__img2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 190px;
+	left: 15px;
+}
+.credit-card__img3 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 25px;
+	left: 55px;
+}
+.credit-card__center {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 70px 30px 102px;
+}
+.credit-card__center_info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 157px;
+}
+.credit-card__center_big {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 130%;
+	color: #212121;
+	margin: 0 0 14px 0;
+}
+.stripe-center {
+	position: relative;
+	height: 1px;
+	margin: 0 0 6px 0;
+}
+.credit-card__center_small {
+	text-align: center;
+	margin: 0 0 3px 0;
+}
+.credit-card__bottom {
+	padding: 0 70px 30px 70px;
+}
+.credit-card__right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+.credit-card__credit {
+	position: relative;
+	height: 48%;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 130%;
+	color: #212121;
+	background-color: #F6F6F6;
+	margin: 0 0 0 30px;
+	box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+	 5px 5px 25px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+.credit-card__blue-stripe {
+	background-color: #3A95FF;
+	width: 100%;
+}
+.stripe {
+	position: absolute;
+	bottom: 0px;
+	height: 5px;
+}
+.credit-card__credit>p {
+	margin: 34px 0 51px 34px;
+}
+.credit-card__credit-img {
+	position: absolute;
+	right: 34px;
+}
+.credit-card__debit {
+	position: relative;
+	height: 48%;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 130%;
+	color: #212121;
+	background-color: #F6F6F6;
+	margin: 0 0 0 30px;
+	box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+.credit-card__debit-img {
+	position: absolute;
+	right: 34px;
+}
+.credit-card__debit>p {
+	margin: 34px 0 51px 34px;
+}
+
+/*-----------------------------------------
+How Get
+------------------------------------------*/
+
+.how-get {
+	background-color: rgba(255,255,255,1.0);
+}
+.how-get__container {
+	padding: 70px 0 110px 0;
+}
+.how-get__title {
+	margin: 0 0 70px 0;
+}
+.how-get__title-text {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	color: #000000;
+}
+.how-get__text {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 140%;
+	text-align: center;
+	color: #212121;
+}
+.how-get__content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.how-get__column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.how-get__picture {
+}
+.how-get__picture-cont {
+	position: relative;
+	margin: 0 0 23px 0;
+}
+.how-get__picture1-1 {
+	position: relative;
+}
+.how-get__picture1-2 {
+	position: absolute;
+	top: 30%;
+	left: 37%;
+}
+.how-get__picture1-3 {
+	position: absolute;
+	top: 47%;
+	left: 50%;
+}
+.how-get__picture2-1 {
+	position: relative;
+}
+.how-get__picture2-2 {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+}
+.how-get__picture2-3 {
+	position: absolute;
+	top: 45%;
+	left: 45%;
+}
+.how-get__picture3-1 {
+	position: relative;
+}
+.how-get__picture3-2 {
+	position: absolute;
+	top: 33%;
+	left: 28%;
+}
+.how-get__picture3-3 {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+
+/*-----------------------------------------
+Debit Card
+------------------------------------------*/
+
+.debit-card {
+	background-color: rgba(255,255,255,1.0);
+}
+.debit-card__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.debit-card__title {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	color: #000000;
+}
+.debit-card__title_main {
+	margin: 0 0 67px 0;
+	padding: 70px 0 0 0;
+}
+.debit-card__row {
+	background-color: #E0E5E9;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 70px 0;
+	padding: 50px 81px 50px 138px;
+	border-radius: 8px;
+	box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+
+}
+.debit-card__picture {
+	position: relative;
+}
+.debit-card__picture1 {
+	position: relative;
+	z-index: 10;
+
+}
+.debit-card__picture2 {
+	position: absolute;
+	bottom: -13%;
+	right: 45%;
+
+}
+.debit-card__picture3 {
+	position: absolute;
+	bottom: -35%;
+	right: 15%;
+
+}
+.debit-card__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.debit-card__top {
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 130%;
+	color: #212121;
+	margin: 0 0 43px 0;
+}
+.debit-card__center {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 200%;
+	color: #424242;
+	margin: 0 0 42px 0;
+}
+.debit_button-conteiner {
+	width: 437px;
+	display: flex;
+	justify-content: space-between;
+}
+.debit_button {
+	width: 200px;
+	height: 55px;
+	border: 1px solid #3A95FF;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 130%;
+	font-weight: 600;
+	padding-top: 15px;
+}
+
+/*-----------------------------------------
+Footer
+------------------------------------------*/
+
+.footer {
+	background: #EFF2F5;
+	padding: 37px 0 29px 0;
+}
+.footer__column {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.footer__row {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: right;
+}
+.footer__text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	color: #424242;
+	margin-top: 22px;
+}
+.footer__text_bold {
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 130%;
+	color: #424242;
+	}
